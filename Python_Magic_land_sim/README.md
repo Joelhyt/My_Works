@@ -10,10 +10,10 @@ Aim was to visualize the average amount of lands (mana) in opening hands after d
 ## Application Overview
 
 Features:
-	- Base deck size and land amount can be modified
-	- Amount of shuffles can be modified
-	- Mimics human like shuffling
-	- Three different shuffles in random order
-	- Plots the results using matplotlib.pyplot
+- Base deck size and land amount can be modified
+- Amount of shuffles can be modified
+- Mimics human like shuffling
+- Three different shuffles in random order
+- Plots the results using matplotlib.pyplot
 
 

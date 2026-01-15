@@ -11,11 +11,11 @@ Site to manage and monitor production and delivery of orders / gifts
 
 ## Project Overview
 Features
-	- Ability to add, remove and edit orders
-	- Priority coloring for orders depending on their priority status
-	- Panel to track amount of completed orders
-	- Filtering with name and/or delivery status
-	- Data is saved in localStorage
+- Ability to add, remove and edit orders
+- Priority coloring for orders depending on their priority status
+- Panel to track amount of completed orders
+- Filtering with name and/or delivery status
+- Data is saved in localStorage
 
 	> Site does not properly support mobile devices
 
