@@ -1,0 +1,147 @@
+#root {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  border: solid 1px #555555;
+  background-color: rgba(36, 36, 36, 0.5);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+button:hover {
+  background-color: #e03737;
+  border: solid 1px #555555;
+}
+
+.header-button {
+  width: 250px;
+  font-weight: bold;
+}
+
+body {
+  background: linear-gradient(rgb(175, 175, 230), rgb(1, 1, 138), rgb(1, 1, 138));
+  color: rgb(255, 255, 255);
+}
+
+header {
+  position: static;
+  top: 5em;
+  left: 0;
+  width: 100%;
+}
+
+
+.grid-dash-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+@media screen and (min-width: 1921px) {
+  .grid-dash-row {
+    gap: 2rem;
+    width: 90vw;
+  }
+}
+
+.lower-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #300000, #361b1b, #292929, #361b1b, #300000);
+  margin-top: 50px;
+  width: 100vw;
+  border-top: solid 1px #555555;
+}
+
+.snowflake {
+  --small: 3px;
+  --medium: 7px;
+  width: var(--small);
+  height: var(--small);
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: snow 6s linear infinite, wind 8s ease-in-out infinite;
+  top: -10%;
+  left: 10%;
+}
+
+.snowflake:nth-child(2n + 3) {
+  width: var(--medium);
+  height: var(--medium);
+}
+
+.snowflake:nth-child(1) {
+  left: 25%;
+  animation-delay: 1s;
+}
+
+.snowflake:nth-child(2) {
+  left: 85%;
+  animation-delay: 1.5s;
+}
+
+.snowflake:nth-child(3) {
+  left: 30%;
+  animation-delay: 2s;
+}
+
+.snowflake:nth-child(4) {
+  left: 65%;
+  animation-delay: 2.5s;
+}
+
+.snowflake:nth-child(5) {
+  left: 25%;
+  animation-delay: 3s;
+}
+
+.snowflake:nth-child(6) {
+  left: 95%;
+  animation-delay: 3.5s;
+}
+
+.snowflake:nth-child(7) {
+  left: 55%;
+  animation-delay: 4s;
+}
+
+.snowflake:nth-child(8) {
+  left: 10%;
+  animation-delay: 4.5s;
+}
+
+.snowflake:nth-child(9) {
+  left: 70%;
+  animation-delay: 5s;
+}
+
+.snowflake:nth-child(10) {
+  left: 20%;
+  animation-delay: 5.5s;
+}
+
+@keyframes snow {
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes wind {
+  50% {
+    transform: translateX(50px);
+  }
+}

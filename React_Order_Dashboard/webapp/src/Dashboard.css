@@ -1,0 +1,109 @@
+.dashboard {
+  padding: 2rem;
+  margin-top: 50px;
+  width: 420px;
+  position: sticky;
+  top: 50px;
+  z-index: 10;
+
+  background: rgba(30, 30, 30, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.342);
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 1600px) {
+  .dashboard {
+    margin-right: 20vh;
+  }
+}
+
+.dashboard h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.stat {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat span {
+  display: block;
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 0.3rem;
+}
+
+.stat strong {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.progress-wrapper {
+  margin-top: 1.5rem;
+}
+
+.progress-label {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: #ccc;
+}
+
+.progress-bar {
+  height: 10px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ca0202, #00b3ff);
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.6);
+  transition: width 0.4s ease;
+}
+
+@media screen and (min-width: 2700px) {
+  .dashboard {
+    width: 500px;
+  }
+
+    .dashboard h1 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  .dashboard-grid {
+    gap: 2rem;
+  }
+
+  .stat {
+    padding: 2rem;
+  }
+
+  .progress-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .stat strong {
+  font-size: 2.0rem;
+
+}
+
+}

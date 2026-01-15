@@ -1,0 +1,32 @@
+.gift-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  max-width: fit-content;
+}
+
+@media screen and (min-width: 2700px) {
+    .gift-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .gift-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20vh;
+  }
+}
+
+.add-example-button {
+  width: 250px;
+  font-weight: bold;
+}
+
+.no-gifts {
+  margin-left: 43.5px;
+}

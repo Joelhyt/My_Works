@@ -1,0 +1,35 @@
+
+.custom-gift-dialog .p-dialog-content {
+  background-color: #383838;
+  color: #f9fafb;
+  padding: 2em;
+}
+
+
+.custom-gift-dialog .p-dialog-header {
+  background-color: #5c1010;
+  color: #f9fafb;
+  border-bottom: 1px solid #000000;
+  border-radius: 12px 12px 0 0;
+  padding: 2em;
+}
+
+
+.custom-gift-dialog .p-dialog-footer {
+  background-color: #5c1010;
+  border-top: 1px solid #000000;
+  border-radius: 0 0 12px 12px;
+  padding-top: 2em;
+}
+
+
+.p-dialog-mask {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

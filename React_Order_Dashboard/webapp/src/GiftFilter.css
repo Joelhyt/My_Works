@@ -1,0 +1,48 @@
+
+.filter-row {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  border-bottom: solid 1px #555555;
+  width: 100vw;
+  padding-bottom: 25px;
+}
+
+.filter-row p {
+  font-weight: bold;
+  margin-left: 5vh;
+}
+
+
+.filter-delivery {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vh;
+    width: 600px;
+  }
+
+@media screen and (min-width: 1921px) {
+  .filter-delivery {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40vh;
+    width: 600px;
+  }
+}
+
+.filter-delivery p {
+  margin-top: 13px;
+}
+
+.filter-name {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  padding: 5px;
+}
+
+.dropdown-filter {
+  margin-left: 10px;
+  width: 250px;
+  text-align: left;
+}

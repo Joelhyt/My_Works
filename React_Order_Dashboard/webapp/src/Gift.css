@@ -1,0 +1,65 @@
+
+
+.gift-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(54, 54, 54, 0.5);
+    backdrop-filter: blur(10px);
+    border: 2px solid #555555;
+    border-radius: 12px;
+    padding: 1.5em;
+    margin: 1em;
+    max-width: fit-content;
+    color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+p {
+    margin: 0.5em;
+}
+
+.gift-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.5);
+}
+
+.gift-header {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.buttons {
+    width: 150px;
+    font-weight: bold;
+}
+
+.gift-id {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-bottom: 1.5em;
+}
+
+.priority-low {
+  background-color: rgba(59, 109, 80, 0.5);
+  border-color: #34d399;
+}
+
+.priority-medium {
+  background-color: rgba(117, 77, 16, 0.5);
+  border-color: #59d334;
+}
+
+.priority-high {
+  background-color: rgba(136, 7, 7, 0.5);
+  border-color: #da6363;
+}
